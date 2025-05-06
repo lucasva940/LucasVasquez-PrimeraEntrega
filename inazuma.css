@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fcfeff;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    z-index: 1000;
+  }
+  body {
+    padding-top: 50px;
+     font-family: Arial;
+    background: linear-gradient(to right, #FFD700, #1A1AFF);
+    color: #fcfeff;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: black
+
+}
+h1{
+    font-size: 3.5em;
+    color: #0070dd ;
+    
+}
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+h3 {
+    margin-top: 50px;
+    font-size: 4em;
+}
+p{
+    font-size: 1.0em;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+#hero{
+    mask-image: "inazuma.png";
+}
+.personajes{
+    width: 250px;
+    height: 150px;
+}
+.cartas{
+    display: flex;
+    text-align: center;
+
+}
+.carta{
+    margin: 10px;
+    border: solid 5px black;
+
+}
+.carta .footer{
+    margin: 10px;
+    border: 5px black;
+ 
+}
+.card-text{
+    color: black;
+
+}
+.card-title{
+ color: black;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 40px auto;
+}
+.introduccion{
+    color: black;
+}
+.group-carta{
+    gap: 10px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
